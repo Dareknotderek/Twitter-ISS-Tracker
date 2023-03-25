@@ -6,7 +6,7 @@ First, clone the repository:
 
 ``` 
 git clone https://github.com/dareknotderek/twitter-iss-tracker.git
-cd iss_position_twitter_bot
+cd twitter-iss-tracker
 ```
 
 Install the required libraries:
@@ -23,7 +23,7 @@ Create a `config.py` (format provided in `config.py`) file in the project direct
 To run the script, execute the following command:
 
 ```
-python twitter-iss-tracker.py
+python iss_position_tweet.py
 ```
 
 This script will now tweet the ISS's relative position every 15 minutes.
